@@ -77,6 +77,19 @@
       <artifactId>mapstruct-processor</artifactId>
       <version>1.5.2.Final</version>
     </dependency>
+
+    <!-- Flyway specific dependencies -->
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-flyway</artifactId>
+    </dependency>
+
+    <!-- JDBC driver dependencies -->
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-jdbc-postgresql</artifactId>
+    </dependency>
+
   </dependencies>
   <build>
     <plugins>
