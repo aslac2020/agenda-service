@@ -22,7 +22,7 @@ public class PacienteService {
          repository.persist(paciente);
     }
 
-    public List<Paciente> getAllClients(){
+    public List<Paciente> getAllPacients(){
         return repository.listAll();
     }
 
@@ -31,7 +31,7 @@ public class PacienteService {
 
     }
 
-    public void deleteClient(Long id){
+    public void deletePacient(Long id){
         repository.deleteById(id);
     }
 
